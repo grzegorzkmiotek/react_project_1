@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.navigation {
+  height: 50px;
+  background: #4e4e4e;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.navigation .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-name {
+  font-weight: bold;
+}
+.links-list {
+  /* display: none; */
+  list-style-type: none;
+  
+}
+
+.offer {
+  margin: 0 45px;
+}
+@media screen and (min-width: 425px) {
+  .box {
+    width: 320px;
+    height: 310px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .links-list {
+    display: flex;
+  }
+
+  .header-title {
+    width: 60%;
+  }
+
+  .offers-wrapper {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+
+  .offer-btn:hover {
+    background: #ffffff;
+    color: black;
+  }
+
+  .offers-wrapper {
+    grid-template-columns: auto auto auto;
+  }
+
+  .offers-subtitle {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 83px;
+    text-align: left;
+  }
+
+  .box {
+    width: 198px;
+    height: 193.78px;
+  }
+
+  .box:hover {
+    transform: scale(1.05);
+  }
+
+  .specialists-subtitle {
+    margin-bottom: 80px;
+    display: flex;
+  }
+
+  .specialist:nth-of-type(odd) {
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+
+  .specialist:nth-of-type(odd) .specialist-description {
+    text-align: left;
+  }
+
+  .specialist:nth-of-type(even) {
+    text-align: right;
+    flex-direction: row-reverse;
+  }
+
+  .specialist:nth-of-type(even) .specialist-description {
+    text-align: right;
+  }
+
+  .specialist:nth-of-type(odd) .specialist-img {
+    margin-right: 60px;
+    margin-bottom: 0;
+  }
+
+  .specialist:nth-of-type(even) .specialist-img {
+    margin: 0 0 0 60px;
+  }
+
+  .footer .container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .footer {
+    height: 71px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .icons {
+    margin-top: 0;
+  }
+}
