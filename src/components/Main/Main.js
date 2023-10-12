@@ -50,7 +50,7 @@ function Main() {
 						<div className='box'>
 							<div className='circle'></div>
 							<p className='new-offer'>Usługa 1</p>
-							<p>(nowość)</p>
+							<p className="bottom">(nowość)</p>
 						</div>
 						<div className='box'>
 							<p>Usługa 2</p>

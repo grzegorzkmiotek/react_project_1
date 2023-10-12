@@ -1,5 +1,7 @@
 import "./Footer.css";
 import "../../App.css";
+import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
 	return (
@@ -11,13 +13,13 @@ function Footer() {
 						href='https://instagram.com'
 						target='_blank'
 						rel='noopener nooreferrer'>
-						<i className='fa-brands fa-instagram'></i>
+						<FontAwesomeIcon icon={faInstagram} />
 					</a>
 					<a
 						href='https://facebook.com'
 						target='_blank'
 						rel='noopener nooreferrer'>
-						<i className='fa-brands fa-square-facebook'></i>
+						<FontAwesomeIcon icon={faFacebook} />
 					</a>
 				</div>
 			</div>
