@@ -1,19 +1,4 @@
-html {
-	scroll-behavior: smooth;
-}
 
-body {
-	font-family: "Roboto", sans-serif;
-}
-a {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.container {
-	width: 92%;
-	margin: 0 auto;
-}
 
 .navigation {
 	height: 50px;
@@ -39,7 +24,7 @@ a {
 	font-weight: bold;
 }
 .links-list {
-	/* display: none; */
+	display: none;
 	list-style-type: none;
 }
 

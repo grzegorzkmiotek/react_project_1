@@ -1,9 +1,8 @@
 import "./Header.css";
-import "../../App.css";
 
 function Header() {
 	return (
-		<header className='header' style={{ backgroundImage: "url(/Mountains.jpg)" }}>
+		<header className='header'>
 			<div className='shadow'>
 				<div className='container'>
 					<h1 className='header-title'>

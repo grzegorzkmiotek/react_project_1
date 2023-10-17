@@ -1,14 +1,4 @@
-html {
-  scroll-behavior: smooth;
-}
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
 .footer {
   height: 147px;
   background: #4e4e4e;

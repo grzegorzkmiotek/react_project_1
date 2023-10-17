@@ -1,155 +1,143 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
 .header .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
 }
 
 .header {
-  height: calc(100vh - 50px);
-  /* background: url('./assets/Mountains.jpg'); */
-  background: no-repeat center;
-  background-size: cover;
+	height: calc(100vh - 50px);
+	background: url("../../assets/Mountains.jpg") no-repeat center;
+	background-size: cover;
 }
 
 .shadow {
-  background: rgba(0, 0, 0, 0.15);
-  height: 100%;
+	background: rgba(0, 0, 0, 0.15);
+	height: 100%;
 }
 
 .header-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #ffffff;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
 }
 
 .header-subtitle {
-  margin: 44px 0;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  color: #ffffff;
+	margin: 44px 0;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffffff;
 }
 
 .offer-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 164px;
-  height: 40.74px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  border: 3px solid #ffffff;
-  transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 164px;
+	height: 40.74px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	border: 3px solid #ffffff;
+	transition: 1s;
 }
 @media screen and (min-width: 425px) {
-  .box {
-    width: 320px;
-    height: 310px;
-  }
+	.box {
+		width: 320px;
+		height: 310px;
+	}
 }
 
 @media screen and (min-width: 768px) {
-  .links-list {
-    display: flex;
-  }
+	.links-list {
+		display: flex;
+	}
 
-  .header-title {
-    width: 60%;
-  }
+	.header-title {
+		width: 60%;
+	}
 
-  .offers-wrapper {
-    grid-template-columns: auto auto;
-  }
+	.offers-wrapper {
+		grid-template-columns: auto auto;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .container {
-    width: 960px;
-  }
+	.container {
+		width: 960px;
+	}
 
-  .offer-btn:hover {
-    background: #ffffff;
-    color: black;
-  }
+	.offer-btn:hover {
+		background: #ffffff;
+		color: black;
+	}
 
-  .offers-wrapper {
-    grid-template-columns: auto auto auto;
-  }
+	.offers-wrapper {
+		grid-template-columns: auto auto auto;
+	}
 
-  .offers-subtitle {
-    font-size: 36px;
-    line-height: 42px;
-    margin-bottom: 83px;
-    text-align: left;
-  }
+	.offers-subtitle {
+		font-size: 36px;
+		line-height: 42px;
+		margin-bottom: 83px;
+		text-align: left;
+	}
 
-  .box {
-    width: 198px;
-    height: 193.78px;
-  }
+	.box {
+		width: 198px;
+		height: 193.78px;
+	}
 
-  .box:hover {
-    transform: scale(1.05);
-  }
+	.box:hover {
+		transform: scale(1.05);
+	}
 
-  .specialists-subtitle {
-    margin-bottom: 80px;
-    display: flex;
-  }
+	.specialists-subtitle {
+		margin-bottom: 80px;
+		display: flex;
+	}
 
-  .specialist:nth-of-type(odd) {
-    flex-direction: row;
-    margin-bottom: 50px;
-  }
+	.specialist:nth-of-type(odd) {
+		flex-direction: row;
+		margin-bottom: 50px;
+	}
 
-  .specialist:nth-of-type(odd) .specialist-description {
-    text-align: left;
-  }
+	.specialist:nth-of-type(odd) .specialist-description {
+		text-align: left;
+	}
 
-  .specialist:nth-of-type(even) {
-    text-align: right;
-    flex-direction: row-reverse;
-  }
+	.specialist:nth-of-type(even) {
+		text-align: right;
+		flex-direction: row-reverse;
+	}
 
-  .specialist:nth-of-type(even) .specialist-description {
-    text-align: right;
-  }
+	.specialist:nth-of-type(even) .specialist-description {
+		text-align: right;
+	}
 
-  .specialist:nth-of-type(odd) .specialist-img {
-    margin-right: 60px;
-    margin-bottom: 0;
-  }
+	.specialist:nth-of-type(odd) .specialist-img {
+		margin-right: 60px;
+		margin-bottom: 0;
+	}
 
-  .specialist:nth-of-type(even) .specialist-img {
-    margin: 0 0 0 60px;
-  }
+	.specialist:nth-of-type(even) .specialist-img {
+		margin: 0 0 0 60px;
+	}
 
-  .footer .container {
-    justify-content: space-between;
-    flex-direction: row;
-  }
+	.footer .container {
+		justify-content: space-between;
+		flex-direction: row;
+	}
 
-  .footer {
-    height: 71px;
-    font-weight: 700;
-    font-size: 18px;
-  }
+	.footer {
+		height: 71px;
+		font-weight: 700;
+		font-size: 18px;
+	}
 
-  .icons {
-    margin-top: 0;
-  }
+	.icons {
+		margin-top: 0;
+	}
 }
